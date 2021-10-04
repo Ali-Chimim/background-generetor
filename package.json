@@ -1,0 +1,22 @@
+{
+  "name": "background-generetor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-Chimim/background-generetor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ali-Chimim/background-generetor/issues"
+  },
+  "homepage": "https://github.com/Ali-Chimim/background-generetor#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
