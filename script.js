@@ -10,7 +10,7 @@ var random = document.getElementsByTagName("button")[0];
 function setGradient() {
 	body.style.background = 
 	"linear-gradient(to right, " 
-	+ color1.value 
+	+ color1.getAttribute()
 	+ ", " 
 	+ color2.value 
 	+ ")";
