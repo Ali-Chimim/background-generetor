@@ -8,15 +8,7 @@ var random = document.getElementsByTagName("button")[0];
 
 
 function setGradient() {
-	body.style.background = 
-	"linear-gradient(to right, " 
-	+ color1.getAttribute()
-	+ ", " 
-	+ color2.value 
-	+ ")";
-	css.textContent = body.style.background + ";";
-	
-
+	console.log('main');
 }
 function randomGradient(){
 let randomColor1 = "#"+Math.floor(Math.random()*16777215).toString(16);
